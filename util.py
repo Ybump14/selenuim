@@ -12,4 +12,3 @@ if __name__ == '__main__':
     driver.get("http://www.baidu.com")
     get_element(driver, By.ID, 'kw').send_keys('selenuim')
     get_element(driver, By.ID, 'su').click()
-    #test
